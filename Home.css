@@ -12,11 +12,10 @@
 footer {
   height: 60px;
   background-color: #000000;
-    padding-top: 20px;
+  padding-top: 20px;
   display: flex;
   justify-content: space-between;
 }
-
 
 #rights {
   text-align: left;
@@ -62,10 +61,9 @@ footer {
   background-color: #551382;
   color: white;
 }
-/* 
-.nav a.active {
-  background-color: #290947;  --> make it on click
-  color: white;
+
+/* .nav .active > a {
+  background-color: #21073a;
 } */
 
 .logo {
@@ -99,7 +97,8 @@ footer {
   transform: translate(-50%, -50%);
 }
 
-.cards { /*main cards div*/
+.cards {
+  /*main cards div*/
   border: var(--darkest) solid;
   background-color: var(--darkest);
   width: 100%;

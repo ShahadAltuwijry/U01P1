@@ -79,12 +79,13 @@ const villains = [
   },
 ];
 
-// $("#cards")
+// $("#cards") dec page function
 const render2 = (item) => {
   localStorage.setItem("item", JSON.stringify(item));
   location.replace("desc.html");
   console.log(item);
 };
+
 /*main page cards function*/
 const render1 = () => {
   villains.forEach((item, i) => {

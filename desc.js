@@ -1,10 +1,9 @@
 const item = JSON.parse(localStorage.getItem("item"));
 
 $(".desc").append(`
-     <div class="card" id="card${i}">
 
             <div class="banner">
-            <img src="${item.banner}" id="banner${i}" >
+            <img src="${item.banner}" id="banner" >
             <h1 class="quoteHead">${item.quoteHead}</h1>
             <p class="quoteCrid">${item.quoteCrid}</p>
         </div>
@@ -13,11 +12,12 @@ $(".desc").append(`
 
         <div class="content">
             <div class="imgDiv">
-                <img id="vilImg${i}" class="vilImg" src="${item.imgUrl}">
+                <img id="vilImg" class="vilImg" src="${item.imgUrl}">
             </div>
 
             <div class="desContent">
                 <p class="description" id="description">
+                ${item.description}
                 </p>
             </div>
         </div>
