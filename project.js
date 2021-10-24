@@ -1,10 +1,76 @@
 const villains = [
-  { name: "Ursula (Sea Witch)", imgUrl: "./ursula.jpg", dis: "BackStory" },
-  { name: "Scar", imgUrl: "./scar.jpg", dis: "BackStory" },
-  { name: "Maleficent", imgUrl: "./maleficent.jpg", dis: "BackStory" },
-  { name: "Ursula (Sea Witch)", imgUrl: "./ursula.jpg", dis: "BackStory" },
-  { name: "Scar", imgUrl: "./scar.jpg", dis: "BackStory" },
-  { name: "Maleficent", imgUrl: "./maleficent.jpg", dis: "BackStory" },
+  {
+    name: "Ursula (The Sea Witch)",
+    imgUrl: "./ursula.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp" } ,
+  },
+  {
+    name: "Scar",
+    imgUrl: "./scar.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp"
+  },
+  {
+    name: "Maleficent",
+    imgUrl: "./maleficent.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp"
+  },
+  {
+    name: "Ursula (Sea Witch)",
+    imgUrl: "./ursula.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp"
+  },
+  {
+    name: "Scar",
+    imgUrl: "./scar.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp"
+  },
+  {
+    name: "Maleficent",
+    imgUrl: "./maleficent.jpg",
+    miniDes: "BackStory",
+    banner: "./ursula banner.png",
+    quoteHead:
+      "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
+    quoteCrid: "- Ursula, 'The Little Mermaid'.",
+    description:
+      "Ursula (also known as the Sea Witch) is the main antagonist of Disney's 1989 animated feature film The Little Mermaid. She is a villainous Cecaelia (half-woman, half-octopus) who strikes deals with unfortunate merfolk with the promise of making their dreams come true. Ursula's contracts, however, are covertly designed to advance her own ambitions and cause general misery. In the past, Ursula was a resident of King Triton's palace, before being banished and exiled by order of the king. Scorned, she has since vowed to exact vengeance by harnessing the power of the king's trident and installing herself as ruler of all the ocean. Honestly I don't see Ursula as a Villain in this movie and that's because Ariel read the contract and signed it, agreeing to all the condetions so why is it Ursula's fault that she's following the laws and coming to take what's hers? Some people will just agree with the main character of the movie just because he is, but if we think logically Ursula wasn't at fault but a lot of people might not agree with me on that. ",
+    // photos:{"./ursula1.webp" "./ursula2.webp"
+  },
 ];
 
 // $("#cards")
@@ -13,12 +79,13 @@ const render2 = (item) => {
   location.replace("desc.html");
   console.log(item);
 };
+/*main page cards function*/
 const render1 = () => {
   villains.forEach((item, i) => {
     $("#cards").append(
       `            <div class="card" id="card${i}"><img id="vilImg${i}" class ="vilImg" src="${item.imgUrl}">
                 <h3 class="vilName">${item.name}</h3>
-                <p class="vilDes">${item.dis}</p>
+                <p class="vilDes">${item.miniDes}</p>
                     <button class="favBtn" id="favBtn${i}" >Favorite</button>
             </div>`
     );
