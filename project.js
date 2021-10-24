@@ -2,7 +2,8 @@ const villains = [
   {
     name: "Ursula (The Sea Witch)",
     imgUrl: "./ursula.jpg",
-    miniDes: "BackStory",
+    miniDes:
+      "In tone, and by nature, Ursula was very dark with a wicked sense of humor. ",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
@@ -14,7 +15,8 @@ const villains = [
   {
     name: "Scar",
     imgUrl: "./scar.jpg",
-    miniDes: "BackStory",
+    miniDes:
+      "Scar is heavily sarcastic, frequently replying to attempts at conversation with sarcasm and subtle insults.",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
@@ -26,7 +28,8 @@ const villains = [
   {
     name: "Maleficent",
     imgUrl: "./maleficent.jpg",
-    miniDes: "BackStory",
+    miniDes:
+      "Maleficent represents pure evil. She is ruthless, dark, devious, and will do whatever it takes to achieve her evil goals.",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
@@ -36,9 +39,10 @@ const villains = [
     // photos:{"./ursula1.webp" "./ursula2.webp"
   },
   {
-    name: "Ursula (Sea Witch)",
-    imgUrl: "./ursula.jpg",
-    miniDes: "BackStory",
+    name: "The Joker",
+    imgUrl: "./joker.jpg",
+    miniDes:
+      "He has a malevolent, sadistic sense of humor and psychopathic tendency of murdering whoever he wants.",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
@@ -48,9 +52,10 @@ const villains = [
     // photos:{"./ursula1.webp" "./ursula2.webp"
   },
   {
-    name: "Scar",
-    imgUrl: "./scar.jpg",
-    miniDes: "BackStory",
+    name: "Harley Quinn",
+    imgUrl: "./harley.png",
+    miniDes:
+      "Bubbly, energetic, and charming, she often hides her demented mind behind a childish exterio. Blindly loyal to the Clown Prince of Crime",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
@@ -60,9 +65,10 @@ const villains = [
     // photos:{"./ursula1.webp" "./ursula2.webp"
   },
   {
-    name: "Maleficent",
-    imgUrl: "./maleficent.jpg",
-    miniDes: "BackStory",
+    name: "Dr. Facilier",
+    imgUrl: "./dr. facilier.jpg",
+    miniDes:
+      "Facilier is a scheming bokor, while a polite, charismatic showman, he is also cruel, remorseless, and sadistic.",
     banner: "./ursula banner.png",
     quoteHead:
       "“Triton's daughter will be mine and then I'll make him writhe. I'll see him wriggle like a worm on a hook!”",
