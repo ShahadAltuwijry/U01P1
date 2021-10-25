@@ -11,7 +11,7 @@
 
 footer {
   height: 70px;
-  background-color:  rgb(20, 20, 20);
+  background-color: rgb(20, 20, 20);
 }
 
 .footer {
@@ -89,10 +89,11 @@ footer {
   width: 100%;
   height: 100%;
   z-index: 1;
-  opacity: 70%;
+  opacity: 50%;
 }
 
 .quoteHead {
+  width: 702px;
   color: white;
   font-size: 40px;
   text-align: center;
@@ -104,6 +105,7 @@ footer {
 
 .quoteCrid {
   color: white;
+  padding-top: 20px;
   font-size: 10px;
   text-align: center;
   position: absolute;
@@ -155,6 +157,7 @@ h2 {
   text-align: center;
   margin-bottom: 29px;
   padding: 15px;
+  letter-spacing: 1.5px;
 }
 
 .imgDiv {
@@ -198,9 +201,9 @@ p {
   flex-wrap: wrap;
   padding: 30px;
   padding-top: 50px;
-  
 }
 
-.photos { /*i have to add an onclick function*/
+.photos {
+  /*i have to add an onclick function*/
   width: 200px;
 }

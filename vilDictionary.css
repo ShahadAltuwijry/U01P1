@@ -76,6 +76,19 @@ footer {
   margin-right: 30px;
   width: 12%;
 }
+
+/* .welcomingVid {
+  width: 100%;
+  height: calc(100vh - 60px);
+  background-color: var(--darkPurple);
+}
+
+#tempImg {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 80%;
+} */
 /*end of page nav and logo*/
 
 #subHead {
