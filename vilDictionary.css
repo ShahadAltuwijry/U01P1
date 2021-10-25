@@ -64,11 +64,10 @@ footer {
   background-color: #551382;
   color: white;
 }
-/* 
+
 .nav a.active {
-  background-color: #290947;  --> make it on click
-  color: white;
-} */
+  background-color: #21073a;
+}
 
 .logo {
   float: left;

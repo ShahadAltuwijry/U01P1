@@ -61,11 +61,10 @@ footer {
   background-color: #551382;
   color: white;
 }
-/* 
+
 .nav a.active {
-  background-color: #290947;  --> make it on click
-  color: white;
-} */
+  background-color: #21073a;
+}
 
 .logo {
   float: left;
@@ -107,9 +106,9 @@ footer {
 
 .cardL:hover {
   cursor: pointer;
-  width: 87%;
-  height: 260px;
-  transition-duration: 0.5s;
+  width: 86%;
+  height: 255px;
+  transition-duration: 0.4s;
   border-radius: 30px;
 }
 
@@ -117,7 +116,7 @@ footer {
   width: 33%;
 }
 .favImg1 {
-  width: 100%;
+  width: 95%;
   border-radius: 100%;
   margin: auto;
   padding: 16px;
@@ -158,9 +157,9 @@ footer {
 
 .cardR:hover {
   cursor: pointer;
-  width: 87%;
-  height: 260px;
-  transition-duration: 0.5s;
+  width: 86%;
+  height: 255px;
+  transition-duration: 0.4s;
   border-radius: 30px;
 }
 
@@ -168,7 +167,7 @@ footer {
   width: 33%;
 }
 .favImg2 {
-  width: 100%;
+  width: 95%;
   border-radius: 100%;
   margin: auto;
   padding: 16px;

@@ -71,17 +71,17 @@ const villains = [
     // photos:{"./ursula1.webp" "./ursula2.webp"
   },
   {
-    name: "Dr. Facilier",
-    imgUrl: "./media/dr. facilier.jpg",
-    fullImg: "./media/full dr.jpg",
+    name: "Jack Sparrow",
+    imgUrl: "./media/jack.jpg",
+    fullImg: "./media/full jack.jpg",
     miniDes:
-      "Facilier is a scheming bokor, while a polite, charismatic showman, he is also cruel, remorseless, and sadistic.",
-    banner: "./media/dr banner.jpg",
+      "A notorious and infamous pirate, pillager, brigand, and highwayman; that was how Captain Jack Sparrow would be described by himself.",
+    banner: "./media/jack banner.gif",
     quoteHead:
-      "“ Gentlemen, enchanté. A tip of the hat from Dr. Facilier. How y'all doing? ”",
-    quoteCrid: "- Dr. Facilier first meeting Naveen and Lawrence.	",
+      "“ Gentlemen, m'lady...you will always remember this as the day that you almost caught Captain Jack Sparrow! ”",
+    quoteCrid: "- Jack Sparrow 'running away'	",
     description:
-      "Dr. Facilier, also known as 'The Shadow Man', is the main antagonist of Disney's fourty-ninth full-length animated feature film The Princess and the Frog, which is based on the 2002 children's novel The Frog Princess by E.D. Baker and the German fairytale The Frog Prince by the Brothers Grimm. He is an evil witch doctor/bokor and Lawrence's new employer who plans to rule New Orleans (and eventually, the entire world) with help from his 'friends on the other side'. Since his inception, Facilier has reached critical acclaim and major popularity with fans, making him one of Disney's most popular villains, in addition, to quickly becoming a primary member of the Disney Villains franchise. He is also Tiana and Naveen's arch-nemesis and the one responsible for them being transformed into frogs. ",
+      "Jack Sparrow was a legendary pirate of the Seven Seas, and the irreverent trickster of the Caribbean. A captain of equally dubious morality and sobriety, a master of self-promotion and self-interest, Jack fought a constant and losing battle with his own best tendencies. Jack's first love was the sea, his second, his beloved ship the Black Pearl. A notorious and infamous pirate, pillager, brigand, and highwayman; that was how Captain Jack Sparrow would be described by himself. Sailing a fine line between piratical genius and mercurial madness, Jack had an enemy in every port. Even at young age, he was the biggest troublemaker on the Seven Seas. ",
     // photos:{"./ursula1.webp" "./ursula2.webp"
   },
 ];
@@ -100,7 +100,7 @@ const render1 = () => {
       `            <div class="card" id="card${i}"><img id="vilImg${i}" class ="vilImg" src="${item.imgUrl}">
                 <h3 class="vilName">${item.name}</h3>
                 <p class="vilDes">${item.miniDes}</p>
-                    <button class="favBtn" id="favBtn${i}" >Favorite</button>
+                    <button class="favBtn" id="favBtn${i}" >❤</button>
             </div>`
     );
     //

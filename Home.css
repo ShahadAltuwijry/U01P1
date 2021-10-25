@@ -62,9 +62,9 @@ footer {
   color: white;
 }
 
-/* .nav .active > a {
+.nav a.active {
   background-color: #21073a;
-} */
+}
 
 .logo {
   float: left;
