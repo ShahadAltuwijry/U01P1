@@ -96,27 +96,25 @@ footer {
 }
 /*left side card*/
 .cardL {
-  /* flex: 0 0 calc(30% - 2rem); */
   display: flex;
-  /* border: #6b0a0a solid 1px; */
-  width: 80%;
+  background-color: #0e0318;
+  border-radius: 30px;
+  width: 85%;
   height: 250px;
   margin: 2rem 0;
   text-align: left;
 }
 
-
-.cardL:hover:hover {
+.cardL:hover {
   cursor: pointer;
-  /* box-shadow: #551382 2px 2px 3px; */
-  /* border: solid 1px #21073a; */
-  background-color: rgb(12, 12, 12);
+  width: 87%;
+  height: 260px;
+  transition-duration: 0.5s;
   border-radius: 30px;
 }
 
-
 .imgDiv1 {
-    width: 33%;
+  width: 33%;
 }
 .favImg1 {
   width: 100%;
@@ -127,9 +125,9 @@ footer {
 }
 
 .descDiv1 {
-    width: 66%;
-    padding: 25px;
-    padding-top:30px ;
+  width: 66%;
+  padding: 25px;
+  padding-top: 30px;
 }
 
 .favName1 {
@@ -140,36 +138,34 @@ footer {
 }
 
 .description1 {
-    color: white;
-    letter-spacing: 1.5px;
-    padding-top: 12px;
+  color: white;
+  letter-spacing: 1.5px;
+  padding-top: 12px;
 }
 /*end of the card that starts from the left*/
 /*start of card that starts from the right*/
 
 .cardR {
-  /* flex: 0 0 calc(30% - 2rem); */
   display: flex;
   flex-direction: row-reverse;
-  /* border: #6b0a0a solid 1px; */
-  width: 80%;
+  background-color: #0e0318;
+  border-radius: 30px;
+  width: 85%;
   height: 250px;
   margin: 2rem 0;
   text-align: right;
 }
 
-
 .cardR:hover {
   cursor: pointer;
-  /* box-shadow: #551382 2px 2px 3px; */
-  /* border: solid 1px #21073a; */
-  background-color: rgb(12, 12, 12);
+  width: 87%;
+  height: 260px;
+  transition-duration: 0.5s;
   border-radius: 30px;
 }
 
-
 .imgDiv2 {
-    width: 33%;
+  width: 33%;
 }
 .favImg2 {
   width: 100%;
@@ -180,9 +176,9 @@ footer {
 }
 
 .descDiv2 {
-    width: 66%;
-    padding: 25px;
-    padding-top:30px ;
+  width: 66%;
+  padding: 25px;
+  padding-top: 30px;
 }
 
 .favName2 {
@@ -193,7 +189,7 @@ footer {
 }
 
 .description2 {
-    color: white;
-    letter-spacing: 1.5px;
-    padding-top: 12px;
+  color: white;
+  letter-spacing: 1.5px;
+  padding-top: 12px;
 }
