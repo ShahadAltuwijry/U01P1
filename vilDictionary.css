@@ -10,28 +10,17 @@
 }
 
 footer {
-  height: 70px;
-  background-color: rgb(20, 20, 20);
-}
-
-.footer {
-  padding-top: 25px;
-  display: flex;
-  justify-content: space-between;
+  height: 60px;
+  background-color: rgb(12, 12, 12);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  text-align: center;
+  position: sticky;
 }
 
 #rights {
-  text-align: left;
-  padding-left: 15px;
-  width: 50%;
-  color: rgb(255, 255, 255);
-  text-shadow: #21073a 1px 1px 3px;
-}
-
-#cr {
-  text-align: right;
-  padding-right: 15px;
-  font-size: 12px;
+font-size: 12px;
   color: rgb(255, 255, 255);
   text-shadow: #21073a 1px 1px 3px;
 }
@@ -50,6 +39,9 @@ footer {
   background-color: black;
   overflow: hidden;
   height: 60px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .nav a {
@@ -76,18 +68,6 @@ footer {
   width: 12%;
 }
 
-/* .welcomingVid {
-  width: 100%;
-  height: calc(100vh - 60px);
-  background-color: var(--darkPurple);
-}
-
-#tempImg {
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  opacity: 80%;
-} */
 /*end of page nav and logo*/
 
 #subHead {
@@ -119,9 +99,6 @@ footer {
 }
 
 .card:hover {
-  cursor: pointer;
-  /* box-shadow: #551382 2px 2px 3px; */
-  /* border: solid 1px #21073a; */
   background-color: rgb(12, 12, 12);
   border-radius: 30px;
 }
@@ -131,6 +108,10 @@ footer {
   border-radius: 100%;
   margin: auto;
   padding-top: 16px;
+}
+
+.vilImg:hover {
+  cursor: pointer;
 }
 
 .vilName {

@@ -21,8 +21,20 @@ $(".wrapper").append(`
                 </p>
             </div>
         </div>
-        <h2>Photo Gallery</h2>
+        <h2>Short Clip</h2>
+        <div class = "vid"><video controls loop width = "600px" >
+                            <source src="${item.clip}" type="video/mp4">Your browser does not support the video player.</video></div>
 
     </div>
 `);
+
+//still didnt add all the clips only the maleficent one
+
+const phArr = [];
+item.photos.forEach((item) => {
+  phArr.push(item);
+});
+console.log(phArr);
+
 //^ didn't add the photo Gallery yet
+//<script type=“text/javascript”>document.getElementByClass("photos").innerHTML = JSON.stringify(phArr);</script>
