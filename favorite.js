@@ -1,15 +1,19 @@
-const addFav = JSON.perse(locationStorage.getItem("item"));
+let villains = JSON.parse(localStorage.getItem("villains"));
 
+const render1 = () => {
+  $(".cards").html("");
+  villains = villains.filter((item) => item.isFav);
 
-
-$(".wrapper").append(`
-        <div class="cards">
+  villains.forEach((item, i) => {
+    $(".cards").append(`
             <div class="cardL">
                 <div class="imgDiv1">
-                        <img src="${item.imgUrl}" alt="${item.vilName}" class="favImg1" id="favImg1">
+                        <img src="${item.imgUrl}" alt="${
+      item.vilName
+    }" class="favImg1" id="favImg1">
                 </div>
                 <div class="descDiv1">
-                    <h3 class="favName1">${item.vilName}</h3>
+                    <h3 class="favName1">${item.name}</h3>
                     <p class="description1">
                         ${item.quoteHead}
                         <div class="crid"><i>${item.quoteCrid}</i>
@@ -18,20 +22,29 @@ $(".wrapper").append(`
                     </p>
                 </div>
                 <div class="star">
-                        <a class="removeStar">Remove From Favorite.</a>
+                          <button class="favBtn" id="favBtn${i}" onclick='addToFav(${i})'>${
+      !item.isFav ? "❤" : "✘"
+    }</button>
                 </div>
 
             </div>
-        </div>
+
 `);
+  });
+};
 
-addFav();
+render1();
 
-// function emptyPage() {
-//     $(“.emptyFav”).hide();
-//         $(“.addFav”).append(`<div>
-//             <h1>WELCOME</h1>
-//             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam excepturi earum sit dolorum harum, possimus exercitationem odit dicta soluta in. Non molestias dolorem, libero consequuntur repellat iusto fugit vel dolore!
-//             </p>
-//             </div>`);
-// };
+const addToFav = (i) => {
+  villains[i].isFav = !villains[i].isFav;
+  localStorage.setItem("villains", JSON.stringify(villains));
+  render1();
+};
+
+for (let i = 0; i < villains.length; i++) {
+  if (villains[i].isFav == true) {
+    $(".emptyFav").hide();
+  } else {
+    $(".emptyFav").show();
+  }
+}
