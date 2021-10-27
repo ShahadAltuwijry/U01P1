@@ -1,10 +1,6 @@
 const addFav = JSON.perse(locationStorage.getItem("item"));
 
-const searchBar = document.getElementById("searchBar");
-const searchBtn = document.getElementById("search");
-searchBtn.onclick = function () {
-  $(".searchBar").toggle("slow");
-};
+
 
 $(".wrapper").append(`
         <div class="cards">
@@ -22,7 +18,7 @@ $(".wrapper").append(`
                     </p>
                 </div>
                 <div class="star">
-                        <img class="removeStar" src="./media/star icon.png">
+                        <a class="removeStar">Remove From Favorite.</a>
                 </div>
 
             </div>
