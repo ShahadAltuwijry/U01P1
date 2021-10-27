@@ -1,5 +1,11 @@
 const addFav = JSON.perse(locationStorage.getItem("item"));
 
+const searchBar = document.getElementById("searchBar");
+const searchBtn = document.getElementById("search");
+searchBtn.onclick = function () {
+  $(".searchBar").toggle("slow");
+};
+
 $(".wrapper").append(`
         <div class="cards">
             <div class="cardL">

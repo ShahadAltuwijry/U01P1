@@ -58,6 +58,26 @@ footer {
   color: white;
 }
 
+.searchBar {
+  display: none;
+  float: right;
+  padding: 20px;
+  background-color: #000000;
+}
+
+
+#searchInput {
+  width: 300px;
+  padding: 5px 5px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+}
+
+
 .logo {
   float: left;
   padding: 13px;

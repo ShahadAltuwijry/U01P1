@@ -98,6 +98,12 @@ const addFav = (item) => {
   location.replace("favorite.html");
 };
 
+const searchBar = document.getElementById("searchBar");
+const searchBtn = document.getElementById("search");
+searchBtn.onclick = function () {
+    $(".searchBar").toggle("slow");
+};
+
 /*main page cards function*/
 const render1 = () => {
   villains.forEach((item, i) => {

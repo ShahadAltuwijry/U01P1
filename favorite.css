@@ -61,6 +61,27 @@ font-size: 12px;
   background-color: #21073a;
 }
 
+.searchBar {
+  display: none;
+  float: right;
+  padding: 20px;
+  background-color: #000000;
+}
+
+
+
+#searchInput {
+  width: 300px;
+  padding: 5px 5px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+}
+
+
 .logo {
   float: left;
   padding: 13px;
@@ -179,56 +200,4 @@ font-size: 12px;
 }
 
 /*end of the card that starts from the left*/
-/*start of card that starts from the right*/
-/* 
-.cardR {
-  display: flex;
-  flex-direction: row-reverse;
-  background-color: #0e0318;
-  border-radius: 30px;
-  width: 85%;
-  height: 250px;
-  margin: 2rem 0;
-  text-align: right;
-}
 
-.cardR:hover {
-  cursor: pointer;
-  width: 86.5%;
-  height: 257px;
-  transition-duration: 0.4s;
-  border-radius: 30px;
-}
-
-.imgDiv2 {
-  width: 33%;
-}
-.favImg2 {
-  width: 95%;
-  border-radius: 100%;
-  margin: auto;
-  padding: 16px;
-  margin-right: 4px;
-}
-
-.descDiv2 {
-  width: 66%;
-  padding: 25px;
-  padding-top: 30px;
-}
-
-.favName2 {
-  color: white;
-  padding: 15px;
-  text-shadow: #551382 1px;
-  font-size: 35px;
-}
-
-.description2 {
-  text-align: left;
-  color: white;
-  letter-spacing: 1.5px;
-  padding-top: 12px;
-}
-
- */

@@ -20,12 +20,10 @@ footer {
 }
 
 #rights {
-font-size: 12px;
+  font-size: 12px;
   color: rgb(255, 255, 255);
   text-shadow: #21073a 1px 1px 3px;
 }
-
-
 
 :root {
   --darkest: #000000;
@@ -63,6 +61,26 @@ font-size: 12px;
   background-color: #21073a;
 }
 
+.searchBar {
+  display: none;
+  float: right;
+  padding: 20px;
+  background-color: #000000;
+}
+
+
+
+#searchInput {
+  width: 300px;
+  padding: 5px 5px;
+  height: 35px;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: #000000;
+  color: white;
+  font-size: 15px;
+}
+
 .logo {
   float: left;
   padding: 13px;
@@ -73,7 +91,7 @@ font-size: 12px;
 .welcomingVid {
   width: 100%;
   height: calc(100vh - 60px);
-  background-color: var(--darkPurple);
+  background-color: var(--darkest);
 }
 
 #tempImg {
@@ -107,7 +125,7 @@ font-size: 12px;
 
 .card {
   flex: 0 0 calc(30% - 2rem);
-  height: 400px;
+  height: 450px;
   margin: 2rem 0;
   text-align: center;
 }
@@ -152,6 +170,10 @@ font-size: 12px;
   height: 37px;
 }
 
+.favBtn:hover {
+  background-color: #21073a;
+}
+
 #subHead {
   text-align: center;
   background-color: var(--darkest);
@@ -174,6 +196,7 @@ font-size: 12px;
   border: 1px solid black;
   font-size: 15px;
   background-color: #000000;
+  color: white;
 }
 
 .contact button {
@@ -185,6 +208,10 @@ font-size: 12px;
   transition: 0.5s;
   font-size: 15px;
   height: 37px;
+}
+
+.contact button:hover {
+  background-color: #21073a;
 }
 
 /* @media screen and (max-width: 500px) {

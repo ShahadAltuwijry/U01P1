@@ -1,5 +1,11 @@
 const item = JSON.parse(localStorage.getItem("item"));
 
+const searchBar = document.getElementById("searchBar");
+const searchBtn = document.getElementById("search");
+searchBtn.onclick = function () {
+  $(".searchBar").toggle("slow");
+};
+
 $(".wrapper").append(`
             <div class="banner">
             <img src="${item.banner}" id="banner" >
