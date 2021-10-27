@@ -44,7 +44,5 @@ const addToFav = (i) => {
 for (let i = 0; i < villains.length; i++) {
   if (villains[i].isFav == true) {
     $(".emptyFav").hide();
-  } else {
-    $(".emptyFav").show();
-  }
+  } 
 }

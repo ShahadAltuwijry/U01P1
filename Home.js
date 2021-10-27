@@ -195,7 +195,7 @@ const searchBar = document.getElementById("searchBar");
 const searchBtn = document.getElementById("search");
 searchBtn.onclick = function () {
   $(".searchBar").toggle("slow");
-};
+}; //only toggles, no function
 
 /*main page cards function*/
 const render1 = () => {
