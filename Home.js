@@ -93,7 +93,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Hades (The Lord of the Underworld)",
-    imgUrl: "./media/Hades.png",
+    imgUrl: "./media/Hades.jpg",
     fullImg: "./media/full hades.jpg",
     miniDes:
       "Hades is a hot-headed fast talker who hates ruling the Underworld. His dream is to take over Mount Olympus.  ",
