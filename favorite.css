@@ -67,6 +67,10 @@ footer {
   width: 12%;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .favHeading {
   font-size: 40px;
   text-align: center;

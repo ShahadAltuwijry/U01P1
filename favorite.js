@@ -1,5 +1,7 @@
 let villains = JSON.parse(localStorage.getItem("villains"));
 
+
+
 const render1 = () => {
   $(".cards").html("");
   villains = villains.filter((item) => item.isFav);
@@ -37,12 +39,18 @@ render1();
 
 const addToFav = (i) => {
   villains[i].isFav = !villains[i].isFav;
+  // localStorage.setItem("favs", JSON.stringify(villains));
   localStorage.setItem("villains", JSON.stringify(villains));
   render1();
 };
 
 for (let i = 0; i < villains.length; i++) {
   if (villains[i].isFav == true) {
-    $(".emptyFav").hide();
-  } 
+    $(".noFav").hide();
+  }
 }
+
+// const logo = document.getElementById("logo");
+// logo.onclick = () => {
+//   location.replace("./Home.html");
+// };

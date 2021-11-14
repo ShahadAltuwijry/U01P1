@@ -197,6 +197,9 @@ searchBtn.onclick = function () {
   $(".searchBar").toggle("slow");
 }; //only toggles, no function
 
+const searchFunc = document.getElementById("searchInput");
+searchFunc.onchange = () => {};
+
 /*main page cards function*/
 const render1 = () => {
   $("#cards").html("");
@@ -228,3 +231,8 @@ const addToFav = (i) => {
   localStorage.setItem("villains", JSON.stringify(villains));
   render1();
 };
+
+// const logo = document.getElementById("logo");
+// logo.onclick = () => {
+//   location.replace("./Home.html");
+// };

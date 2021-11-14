@@ -41,3 +41,8 @@ const addToFav = (i) => {
   localStorage.setItem("villains", JSON.stringify(villains));
   render1();
 };
+
+// const logo = document.getElementById("logo");
+// logo.onclick = () => {
+//   location.replace("/Home.html");
+// };
