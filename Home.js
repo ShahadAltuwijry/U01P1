@@ -1,6 +1,7 @@
 const villains = JSON.parse(localStorage.getItem("villains")) || [
   {
     name: "Scar",
+    id: 0,
     imgUrl: "./media/scar.jpg",
     fullImg: "./media/full scar.png",
     miniDes:
@@ -16,6 +17,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Ursula (The Sea Witch)",
+    id: 1,
     imgUrl: "./media/ursula.jpg",
     fullImg: "./media/full Ursula.jpg",
     miniDes:
@@ -32,6 +34,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
 
   {
     name: "Maleficent",
+    id: 2,
     imgUrl: "./media/maleficent.jpg",
     fullImg: "./media/full maleficent.jpg",
     miniDes:
@@ -48,6 +51,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "The Joker",
+    id: 3,
     imgUrl: "./media/joker.jpg",
     fullImg: "./media/full joker.jpg",
     miniDes:
@@ -63,6 +67,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Harley Quinn",
+    id: 4,
     imgUrl: "./media/harley.png",
     fullImg: "./media/full harley2.png",
     miniDes:
@@ -78,6 +83,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Jack Sparrow",
+    id: 5,
     imgUrl: "./media/jack.jpg",
     fullImg: "./media/full jack.jpg",
     miniDes:
@@ -93,6 +99,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Hades (The Lord of the Underworld)",
+    id: 6,
     imgUrl: "./media/Hades.jpg",
     fullImg: "./media/full hades.jpg",
     miniDes:
@@ -107,6 +114,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Cruella De Vil",
+    id: 7,
     imgUrl: "./media/cruella.jfif",
     fullImg: "./media/ful cruella.jpg",
     miniDes:
@@ -123,6 +131,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "The Evil Queen",
+    id: 8,
     imgUrl: "./media/evil queen.jpg",
     fullImg: "./media/full queen.jpg",
     miniDes:
@@ -138,6 +147,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Loki",
+    id: 9,
     imgUrl: "./media/Loki.jpg",
     fullImg: "./media/full loki.jpg",
     miniDes:
@@ -152,6 +162,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Venom",
+    id: 10,
     imgUrl: "./media/venom.jpeg",
     fullImg: "./media/full venom.jpg",
     miniDes:
@@ -167,6 +178,7 @@ const villains = JSON.parse(localStorage.getItem("villains")) || [
   },
   {
     name: "Hela",
+    id: 11,
     imgUrl: "./media/hela.jpg",
     fullImg: "./media/full hela.png",
     miniDes:
@@ -191,14 +203,21 @@ const render2 = (item) => {
   location.replace("desc.html");
 };
 
-const searchBar = document.getElementById("searchBar");
-const searchBtn = document.getElementById("search");
-searchBtn.onclick = function () {
-  $(".searchBar").toggle("slow");
-}; //only toggles, no function
+// const searchBar = document.getElementById("searchBar"); //the search div
+// const searchBtn = document.getElementById("search"); //the search part in navigation
+// searchBtn.onclick = function () {
+//   $(".searchBar").toggle("slow");
+// }; //only toggles, no function
 
-const searchFunc = document.getElementById("searchInput");
-searchFunc.onchange = () => {};
+// const searchFunc = () => {
+//   let input = document.getElementById("searchInput");
+//   let filter = input.value.toLowerCase();
+// }
+
+// const searchFunc = document.getElementById("searchInput");
+// searchFunc.onchange = () => {
+//   let
+// };
 
 /*main page cards function*/
 const render1 = () => {
@@ -236,3 +255,47 @@ const addToFav = (i) => {
 // logo.onclick = () => {
 //   location.replace("./Home.html");
 // };
+
+// $("#searchInput").click(function () {
+//   const res = $("#searchInput").val();
+//   if (res.length && res.trim().length) {
+//     const lowRes = res.toLowerCase();
+//     const searchVil = elem.villains.toLowerCase();
+//     console.log(searchVil.includes(lowRes), elem);
+//     const arr = works.filter(
+//       (o) =>
+//         o.villains.toLowerCase() === lowRes ||
+//         o.villains.toLowerCase().includes(lowRes)
+//     );
+//     $("#show").html(``);
+//     if (arr.length) {
+//       for (let i = 0; i < 6; i++) {
+//         $("#cards").append(
+//           `            <div class="card" id="card${i}"><img id="vilImg${i}" class ="vilImg" src="${
+//             villains[i].imgUrl
+//           }">
+//                 <h3 class="vilName" id="vilName" >${villains[i].name}</h3>
+//                 <p class="vilDes" id="vilDes">${villains[i].miniDes}</p>
+//                     <button class="favBtn" id="favBtn${i}" onclick='addToFav(${i})'>${
+//             !villains[i].isFav ? "❤" : "✘"
+//           }</button>
+//             </div>`
+//         );
+
+//         $(`#vilImg${i}`).click(() => render2(villains[i]));
+//       }
+//     }
+//   }
+// });
+//----------------------------------------
+//if i want to have it showing on the same page
+
+//         );
+//         $('#show').append(`<p><a style="color: #8834ec;" href="/portfolio.html">Back to Portfolio</a></p>`)
+//       }
+//         else {
+//           $('#show').append(`
+// <p>Soory,no result.  <a style="color: #8834ec;" href="/portfolio.html">Back to Portfolio</a></p> `);
+//         }
+
+//

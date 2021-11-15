@@ -1,12 +1,12 @@
 let villains = JSON.parse(localStorage.getItem("villains"));
-
-
+console.log(villains);
 
 const render1 = () => {
   $(".cards").html("");
-  villains = villains.filter((item) => item.isFav);
+  let villains = JSON.parse(localStorage.getItem("villains"));
+  favVillains = villains.filter((item) => item.isFav);
 
-  villains.forEach((item, i) => {
+  favVillains.forEach((item, i) => {
     $(".cards").append(`
             <div class="cardL">
                 <div class="imgDiv1">
@@ -24,9 +24,9 @@ const render1 = () => {
                     </p>
                 </div>
                 <div class="star">
-                          <button class="favBtn" id="favBtn${i}" onclick='addToFav(${i})'>${
-      !item.isFav ? "❤" : "✘"
-    }</button>
+                          <button class="favBtn" id="favBtn${i}" onclick='addToFav(${
+      item.id
+    })'>${!item.isFav ? "❤" : "✘"}</button>
                 </div>
 
             </div>
@@ -37,9 +37,16 @@ const render1 = () => {
 
 render1();
 
-const addToFav = (i) => {
-  villains[i].isFav = !villains[i].isFav;
-  // localStorage.setItem("favs", JSON.stringify(villains));
+const addToFav = (id) => {
+  let villains = JSON.parse(localStorage.getItem("villains"));
+
+  villains.forEach((vil, index) => {
+    if (id == vil.id) {
+      vil.isFav = false;
+      console.log(vil);
+    }
+  });
+
   localStorage.setItem("villains", JSON.stringify(villains));
   render1();
 };
@@ -50,7 +57,3 @@ for (let i = 0; i < villains.length; i++) {
   }
 }
 
-// const logo = document.getElementById("logo");
-// logo.onclick = () => {
-//   location.replace("./Home.html");
-// };
